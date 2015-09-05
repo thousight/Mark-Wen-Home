@@ -10,11 +10,11 @@ h1 {
   /*font*/
   color: white;
   font-family: 'Open Sans';
-	font-size: 75px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 300;
-	line-height: 44px;
+  font-size: 75px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 300;
+  line-height: 44px;
   /*position*/
   margin-left: 85px;
   margin-bottom: 10px;
@@ -36,7 +36,29 @@ a {
 
 li {
   /*position*/
-  margin-left: 48px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  margin-left: 46px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+td {
+  /*animation*/
+  transition:all 0.5s ease;
+  -webkit-transition:all 0.5s ease;
+  -moz-transition:all 0.5s ease;
+  -o-transition:all 0.5s ease;
+  transform:rotate(0deg) scale(1) skew(0deg) translate(0px);
+  -ms-transform:rotate(0deg) scale(1) skew(0deg) translate(0px);
+  -webkit-transform:rotate(0deg) scale(1) skew(0deg) translate(0px);
+  -moz-transform:rotate(0deg) scale(1) skew(0deg) translate(0px);
+  -o-transform:rotate(0deg) scale(1) skew(0deg) translate(0px);
+}
+
+/*Element Animations*/
+td:hover {
+  transform:rotate(0deg) scale(1) skew(0deg) translate(18px) ;
+  -webkit-transform:rotate(0deg) scale(1) skew(0deg) translate(18px) ;
+  -moz-transform:rotate(0deg) scale(1) skew(0deg) translate(18px) ;
+  -o-transform:rotate(0deg) scale(1) skew(0deg) translate(18px) ;
+  -ms-transform:rotate(0deg) scale(1) skew(0deg) translate(18px) ;
 }
