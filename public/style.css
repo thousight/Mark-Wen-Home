@@ -1,0 +1,40 @@
+body {
+  background: url('img/background.jpg') no-repeat 50% 50% fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+}
+
+h1 {
+  /*font*/
+  color: white;
+  font-family: 'Open Sans';
+	font-size: 70px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 300;
+	line-height: 44px;
+  /*position*/
+  margin-left: 85px;
+  margin-bottom: 10px;
+  padding-top: 220px;
+  padding-bottom: 40px;
+}
+
+a {
+  /*font*/
+  color: white;
+  font-family: 'Open Sans';
+  font-size: 38px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 300;
+  line-height: 20px;
+  text-decoration: none;
+  /*position*/
+  margin-left: 85px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
