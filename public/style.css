@@ -10,7 +10,7 @@ h1 {
   /*font*/
   color: white;
   font-family: 'Open Sans';
-	font-size: 70px;
+	font-size: 75px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 300;
@@ -18,8 +18,8 @@ h1 {
   /*position*/
   margin-left: 85px;
   margin-bottom: 10px;
-  padding-top: 220px;
-  padding-bottom: 40px;
+  padding-top: 185px;
+  padding-bottom: 55px;
 }
 
 a {
@@ -32,9 +32,11 @@ a {
   font-weight: 300;
   line-height: 20px;
   text-decoration: none;
-  /*position*/
-  margin-left: 85px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+}
 
+li {
+  /*position*/
+  margin-left: 48px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
