@@ -44,21 +44,10 @@ li {
 td {
   /*animation*/
   transition:all 0.5s ease;
-  -webkit-transition:all 0.5s ease;
-  -moz-transition:all 0.5s ease;
-  -o-transition:all 0.5s ease;
-  transform:rotate(0deg) scale(1) skew(0deg) translate(0px);
-  -ms-transform:rotate(0deg) scale(1) skew(0deg) translate(0px);
-  -webkit-transform:rotate(0deg) scale(1) skew(0deg) translate(0px);
-  -moz-transform:rotate(0deg) scale(1) skew(0deg) translate(0px);
-  -o-transform:rotate(0deg) scale(1) skew(0deg) translate(0px);
+  transform:translate3d(0, 0, 0);
 }
 
 /*Element Animations*/
 td:hover {
-  transform:rotate(0deg) scale(1) skew(0deg) translate(18px) ;
-  -webkit-transform:rotate(0deg) scale(1) skew(0deg) translate(18px) ;
-  -moz-transform:rotate(0deg) scale(1) skew(0deg) translate(18px) ;
-  -o-transform:rotate(0deg) scale(1) skew(0deg) translate(18px) ;
-  -ms-transform:rotate(0deg) scale(1) skew(0deg) translate(18px) ;
+  transform: translateX(18px);
 }
