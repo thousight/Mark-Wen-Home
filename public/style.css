@@ -1,4 +1,5 @@
 body {
+  /*Background*/
   background: url('img/background.jpg') no-repeat 50% 50% fixed;
   background-size: cover;
   -moz-background-size: cover;
@@ -7,7 +8,7 @@ body {
 }
 
 h1 {
-  /*font*/
+  /*Font*/
   color: white;
   font-family: 'Open Sans';
   font-size: 75px;
@@ -16,7 +17,7 @@ h1 {
   font-weight: 300;
   line-height: 44px;
 
-  /*position*/
+  /*Position*/
   margin-left: 85px;
   margin-bottom: 10px;
   padding-top: 185px;
@@ -24,10 +25,10 @@ h1 {
 }
 
 li {
-  /*position*/
+  /*Position*/
   padding-left: 46px;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 27px;
+  padding-bottom: 27px;
 }
 
 a {
@@ -43,12 +44,13 @@ a {
   transition-property: margin-left;
   transition-duration: 0.5s;
   margin-left:0px;
+  margin-right: 0px;
 
   /*On Load Animation*/
-  animation-name: loadLink 0.5s ease;
-  -moz-animation-name: loadLink 0.5s ease;
-  -o-animation-name: loadLink 0.5s ease;
-  -webkit-animation-name: loadLink 0.5s ease;
+  animation: loadLink 0.5s ease;
+  -moz-animation: loadLink 0.5s ease;
+  -o-animation: loadLink 0.5s ease;
+  -webkit-animation: loadLink 0.5s ease;
 }
 
 /*Hover Effect*/
@@ -57,22 +59,22 @@ a:hover {
 }
 
 /*On Load Animation*/
-@keyframe loadLink {
+@keyframes loadLink {
+  from {opacity: 0; left: -100px;}
+  to {opacity: 1; left: 0px;}
+}
+
+@-moz-keyframes loadLink {
   0% {opacity: 0; left: -100px;}
   100% {opacity: 1; left: 0px;}
 }
 
-@-moz-keyframe loadLink {
+@-o-keyframes loadLink {
   0% {opacity: 0; left: -100px;}
   100% {opacity: 1; left: 0px;}
 }
 
-@-o-keyframe loadLink {
-  0% {opacity: 0; left: -100px;}
-  100% {opacity: 1; left: 0px;}
-}
-
-@-webkit-keyframe loadLink {
+@-webkit-keyframes loadLink {
   0% {opacity: 0; left: -100px;}
   100% {opacity: 1; left: 0px;}
 }
