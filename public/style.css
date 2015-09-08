@@ -27,27 +27,29 @@ a {
   color: white;
   font-family: 'Open Sans';
   font-size: 38px;
-  font-style: normal;
   font-variant: normal;
-  font-weight: 300;
   line-height: 20px;
   text-decoration: none;
 }
 
 li {
   /*position*/
-  margin-left: 46px;
+  padding-left: 46px;
   padding-top: 25px;
   padding-bottom: 25px;
 }
 
-td {
+td a {
   /*animation*/
-  transition:all 0.5s ease;
-  transform:translate3d(0, 0, 0);
+  transition-duration: 0.5s;
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  margin-left:0px;
 }
 
 /*Element Animations*/
-td:hover {
-  transform: translateX(18px);
+td a:hover {
+  margin-left:18px;
 }
