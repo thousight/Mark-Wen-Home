@@ -15,21 +15,12 @@ h1 {
   font-variant: normal;
   font-weight: 300;
   line-height: 44px;
+
   /*position*/
   margin-left: 85px;
   margin-bottom: 10px;
   padding-top: 185px;
   padding-bottom: 55px;
-}
-
-a {
-  /*font*/
-  color: white;
-  font-family: 'Open Sans';
-  font-size: 38px;
-  font-variant: normal;
-  line-height: 20px;
-  text-decoration: none;
 }
 
 li {
@@ -39,17 +30,53 @@ li {
   padding-bottom: 25px;
 }
 
-td a {
-  /*animation*/
+a {
+  /*Font*/
+  color: white;
+  font-family: 'Open Sans';
+  font-size: 38px;
+  font-variant: normal;
+  line-height: 20px;
+  text-decoration: none;
+
+  /*Hover Transition*/
   transition-duration: 0.5s;
+  margin-left:0px;
+
+  /*On Load Animation*/
+  animation-name: loadLink 0.5s ease;
+  -moz-animation-name: loadLink 0.5s ease;
+  -o-animation-name: loadLink 0.5s ease;
+  -webkit-animation-name: loadLink 0.5s ease;
+
   transform: translate3d(0, 0, 0);
   -webkit-transform: translate3d(0, 0, 0);
   -moz-transform: translate3d(0, 0, 0);
   -o-transform: translate3d(0, 0, 0);
-  margin-left:0px;
 }
 
-/*Element Animations*/
-td a:hover {
+/*Hover Effect*/
+a:hover {
   margin-left:18px;
+}
+
+/*On Load Animation*/
+@keyframe loadLink {
+  0% {opacity: 0; left: -100px;}
+  100% {opacity: 1; left: 0px;}
+}
+
+@-moz-keyframe loadLink {
+  0% {opacity: 0; left: -100px;}
+  100% {opacity: 1; left: 0px;}
+}
+
+@-o-keyframe loadLink {
+  0% {opacity: 0; left: -100px;}
+  100% {opacity: 1; left: 0px;}
+}
+
+@-webkit-keyframe loadLink {
+  0% {opacity: 0; left: -100px;}
+  100% {opacity: 1; left: 0px;}
 }
