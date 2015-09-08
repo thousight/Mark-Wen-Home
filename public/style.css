@@ -40,6 +40,7 @@ a {
   text-decoration: none;
 
   /*Hover Transition*/
+  transition-property: margin-left;
   transition-duration: 0.5s;
   margin-left:0px;
 
@@ -48,11 +49,6 @@ a {
   -moz-animation-name: loadLink 0.5s ease;
   -o-animation-name: loadLink 0.5s ease;
   -webkit-animation-name: loadLink 0.5s ease;
-
-  transform: translate3d(0, 0, 0);
-  -webkit-transform: translate3d(0, 0, 0);
-  -moz-transform: translate3d(0, 0, 0);
-  -o-transform: translate3d(0, 0, 0);
 }
 
 /*Hover Effect*/
