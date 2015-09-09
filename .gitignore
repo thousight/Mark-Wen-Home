@@ -14,9 +14,6 @@ $RECYCLE.BIN/
 *.msm
 *.msp
 
-# resume
-resume.docx
-
 # Windows shortcuts
 *.lnk
 
