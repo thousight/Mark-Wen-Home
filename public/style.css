@@ -7,6 +7,13 @@ body {
   -webkit-background-size: cover;
 }
 
+li {
+  /*Position*/
+  padding-left: 46px;
+  padding-top: 27px;
+  padding-bottom: 27px;
+}
+
 h1 {
   /*Font*/
   color: white;
@@ -22,13 +29,13 @@ h1 {
   margin-bottom: 10px;
   padding-top: 185px;
   padding-bottom: 55px;
-}
+  position: relative;
 
-li {
-  /*Position*/
-  padding-left: 46px;
-  padding-top: 27px;
-  padding-bottom: 27px;
+  /*On Load Animation*/
+  animation: loadTitle 0.9s ease 0.2s forwards;
+  -moz-animation: loadTitle 1s ease;
+  -o-animation: loadTitle 1s ease;
+  -webkit-animation: loadTitle 1s ease;
 }
 
 a {
@@ -47,10 +54,37 @@ a {
   margin-right: 0px;
 
   /*On Load Animation*/
-  animation: loadLink 0.5s ease;
-  -moz-animation: loadLink 0.5s ease;
-  -o-animation: loadLink 0.5s ease;
-  -webkit-animation: loadLink 0.5s ease;
+  position: relative;
+  opacity: 0;
+  animation: loadLink 0.6s ease;
+  -moz-animation: loadLink 0.6s ease;
+  -o-animation: loadLink 0.6s ease;
+  -webkit-animation: loadLink 0.6s ease;
+}
+
+.resume {
+  animation-delay: 0.35s;
+  animation-fill-mode: forwards;
+}
+
+.linkedin {
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.github {
+  animation-delay: 0.65s;
+  animation-fill-mode: forwards;
+}
+
+.vsco {
+  animation-delay: 0.8s;
+  animation-fill-mode: forwards;
+}
+
+.flickr {
+  animation-delay: 0.95s;
+  animation-fill-mode: forwards;
 }
 
 /*Hover Effect*/
@@ -60,21 +94,45 @@ a:hover {
 
 /*On Load Animation*/
 @keyframes loadLink {
-  from {opacity: 0; left: -100px;}
+  from {opacity: 0; left: -80px;}
   to {opacity: 1; left: 0px;}
 }
 
 @-moz-keyframes loadLink {
-  0% {opacity: 0; left: -100px;}
+  0% {opacity: 0; left: -80px;}
   100% {opacity: 1; left: 0px;}
 }
 
 @-o-keyframes loadLink {
-  0% {opacity: 0; left: -100px;}
+  0% {opacity: 0; left: -80px;}
   100% {opacity: 1; left: 0px;}
 }
 
 @-webkit-keyframes loadLink {
-  0% {opacity: 0; left: -100px;}
+  0% {opacity: 0; left: -80px;}
   100% {opacity: 1; left: 0px;}
+}
+
+@keyframes loadTitle {
+  0% {opacity: 0; top: 85px;}
+  50% {opacity: 1; top: -17px;}
+  100% {top: 0px;}
+}
+
+@-moz-keyframes loadTitle {
+  0% {opacity: 0; top: 85px;}
+  50% {opacity: 1; top: -17px;}
+  100% {top: 0px;}
+}
+
+@-o-keyframes loadTitle {
+  0% {opacity: 0; top: 85px;}
+  50% {opacity: 1; top: -17px;}
+  100% {top: 0px;}
+}
+
+@-webkit-keyframes loadTitle {
+  0% {opacity: 0; top: 85px;}
+  50% {opacity: 1; top: -17px;}
+  100% {top: 0px;}
 }
