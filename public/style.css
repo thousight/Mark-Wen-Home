@@ -87,6 +87,11 @@ a {
   animation-fill-mode: forwards;
 }
 
+.project365 {
+  animation-delay: 1.1s;
+  animation-fill-mode: forwards;
+}
+
 /*Hover Effect*/
 a:hover {
   margin-left:18px;
