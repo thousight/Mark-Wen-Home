@@ -5,21 +5,24 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
+
+  /*Hiding Horizontal Scroll Bar*/
+  overflow-x: hidden;
 }
 
 .navbar-default {
-  /* Navbar Colors */
+  /*Navbar Colors*/
   background-color: #3BAFDA;
 }
 .navbar-default .navbar-text {
-  /* Navbar Text Color*/
+  /*Navbar Text Color*/
   color: white;
 }
 
 li {
   /*Position*/
-  padding-top: 27px;
-  padding-bottom: 27px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   display: inline;
 }
 
@@ -34,9 +37,9 @@ h1 {
   line-height: 44px;
 
   /*Position*/
-  margin-left: 150px;
+  margin-left: 100px;
   margin-bottom: 150px;
-  padding-top: 250px;
+  padding-top: 270px;
   padding-bottom: 55px;
   position: relative;
 
@@ -69,6 +72,10 @@ a {
   -moz-animation: loadLink 0.6s ease;
   -o-animation: loadLink 0.6s ease;
   -webkit-animation: loadLink 0.6s ease;
+}
+
+a:hover {
+  color: white;
 }
 
 .resume {
