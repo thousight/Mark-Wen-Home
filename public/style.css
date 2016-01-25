@@ -7,27 +7,36 @@ body {
   -webkit-background-size: cover;
 }
 
+.navbar-default {
+  /* Navbar Colors */
+  background-color: #3BAFDA;
+}
+.navbar-default .navbar-text {
+  /* Navbar Text Color*/
+  color: white;
+}
+
 li {
   /*Position*/
-  padding-left: 46px;
   padding-top: 27px;
   padding-bottom: 27px;
+  display: inline;
 }
 
 h1 {
   /*Font*/
   color: white;
   font-family: 'Open Sans';
-  font-size: 75px;
+  font-size: 100px;
   font-style: normal;
   font-variant: normal;
   font-weight: 300;
   line-height: 44px;
 
   /*Position*/
-  margin-left: 85px;
-  margin-bottom: 10px;
-  padding-top: 150px;
+  margin-left: 150px;
+  margin-bottom: 150px;
+  padding-top: 250px;
   padding-bottom: 55px;
   position: relative;
 
@@ -42,7 +51,7 @@ a {
   /*Font*/
   color: white;
   font-family: 'Open Sans';
-  font-size: 38px;
+  font-size: 27px;
   font-variant: normal;
   line-height: 20px;
   text-decoration: none;
