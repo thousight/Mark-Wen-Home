@@ -123,6 +123,11 @@ a:hover {
   animation-fill-mode: forwards;
 }
 
+.ACTRA {
+  animation-delay: 1.25s;
+  animation-fill-mode: forwards;
+}
+
 /*Hover Effect*/
 a:hover {
   margin-left: 10px;
