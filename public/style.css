@@ -1,13 +1,12 @@
 body {
-  /*Background*/
-  background: url('img/background.jpg') no-repeat center fixed;
-  background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  -webkit-background-size: cover;
-
   /*Hiding Horizontal Scroll Bar*/
   overflow-x: hidden;
+}
+
+html, body {
+  /*Full Screen Responsive Div*/
+  height: 100%;
+  margin: 0;
 }
 
 .navbar-default {
@@ -19,26 +18,22 @@ body {
   color: white;
 }
 
-li {
-  /*Position*/
-  padding-top: 12px;
-  padding-bottom: 12px;
-  display: inline;
+#HomePage {
+  /*Background Image*/
+  background: url('img/background.jpg') no-repeat center fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
 }
 
-ul {
-  align-content: center;
-  list-style-type: none;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
+.content {
+  /*Vertically center all items*/
+  vertical-align: middle;
 
-.links {
-  width: 50%;
-  margin: 0 auto;
+  /*Full Screen Responsive Div*/
+  height: 100%;
+  min-height: 100%;
 }
 
 h1 {
@@ -63,6 +58,29 @@ h1 {
   -moz-animation: loadTitle 1s ease;
   -o-animation: loadTitle 1s ease;
   -webkit-animation: loadTitle 1s ease;
+}
+
+.links {
+  width: 50%;
+  margin: 0 auto;
+}
+
+ul {
+  /*Center all the listed items*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  /*Removing list dots*/
+  list-style-type: none;
+}
+
+li {
+  /*Position*/
+  padding-top: 12px;
+  padding-bottom: 12px;
+  display: inline;
 }
 
 a {
