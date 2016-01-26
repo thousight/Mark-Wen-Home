@@ -18,6 +18,12 @@ html, body {
   color: white;
 }
 
+.content {
+  /*Full Screen Responsive Div*/
+  height: 100%;
+  min-height: 100%;
+}
+
 #HomePage {
   /*Background Image*/
   background: url('img/background.jpg') no-repeat center fixed;
@@ -25,15 +31,12 @@ html, body {
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
-}
 
-.content {
   /*Vertically center all items*/
+  display: flex;
   vertical-align: middle;
-
-  /*Full Screen Responsive Div*/
-  height: 100%;
-  min-height: 100%;
+  flex-direction: column;
+  justify-content: center;
 }
 
 h1 {
@@ -49,7 +52,6 @@ h1 {
   /*Position*/
   text-align: center;
   margin-bottom: 30px;
-  padding-top: 270px;
   padding-bottom: 55px;
   position: relative;
 
