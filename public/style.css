@@ -26,7 +26,7 @@ html, body {
 
 #HomePage {
   /*Background Image*/
-  background: url('img/background.jpg') no-repeat center fixed;
+  background: url('img/background.jpg') center center no-repeat scroll;
   background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
