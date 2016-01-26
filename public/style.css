@@ -1,6 +1,6 @@
 body {
   /*Background*/
-  background: url('img/background.jpg') no-repeat 50% 50% fixed;
+  background: url('img/background.jpg') no-repeat center fixed;
   background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -26,6 +26,21 @@ li {
   display: inline;
 }
 
+ul {
+  align-content: center;
+  list-style-type: none;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.links {
+  width: 50%;
+  margin: 0 auto;
+}
+
 h1 {
   /*Font*/
   color: white;
@@ -34,11 +49,11 @@ h1 {
   font-style: normal;
   font-variant: normal;
   font-weight: 300;
-  line-height: 44px;
+  line-height: 1.3em;
 
   /*Position*/
-  margin-left: 100px;
-  margin-bottom: 150px;
+  text-align: center;
+  margin-bottom: 30px;
   padding-top: 270px;
   padding-bottom: 55px;
   position: relative;
@@ -54,7 +69,7 @@ a {
   /*Font*/
   color: white;
   font-family: 'Open Sans';
-  font-size: 27px;
+  font-size: 20px;
   font-variant: normal;
   line-height: 20px;
   text-decoration: none;
@@ -62,7 +77,7 @@ a {
   /*Hover Transition*/
   transition-property: margin-left;
   transition-duration: 0.5s;
-  margin-left:0px;
+  margin-left: 0px;
   margin-right: 0px;
 
   /*On Load Animation*/
@@ -110,7 +125,7 @@ a:hover {
 
 /*Hover Effect*/
 a:hover {
-  margin-left:18px;
+  margin-left: 10px;
 }
 
 /*On Load Animation*/
