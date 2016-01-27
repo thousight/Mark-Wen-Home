@@ -1,4 +1,4 @@
-/* -------------------- Main Body Stuff + Navigation Bar --------------------*/
+/* ---------------------------------------- Main Body Stuff + Navigation Bar ----------------------------------------
 
 html, body {
   /*Full Screen Responsive Div*/
@@ -100,7 +100,7 @@ html, body {
 }
 
 
-/* -------------------- HomePage --------------------*/
+/* ---------------------------------------- HomePage ----------------------------------------*/
 
 #HomePage {
   /*Background Image*/
@@ -185,7 +185,9 @@ html, body {
 }
 
 /*Hover effect of each link*/
-.resume:hover, .linkedin:hover, .github:hover, .vsco:hover, .flickr:hover, .project365:hover, .ACTRA:hover {
+.resume:hover, .linkedin:hover,
+.github:hover, .vsco:hover,
+.flickr:hover, .project365:hover, .ACTRA:hover {
   /*Overriding hover font color change from Bootstrap*/
   color: white;
 
@@ -322,7 +324,7 @@ html, body {
 }
 
 
-/* -------------------- Education --------------------*/
+/* ---------------------------------------- Education ----------------------------------------*/
 
 #edu {
   /*Background Color*/
@@ -336,7 +338,7 @@ html, body {
 }
 
 
-/* -------------------- Experience --------------------*/
+/* ---------------------------------------- Experience ----------------------------------------*/
 
 #exp {
   /*Background Color*/
@@ -350,7 +352,7 @@ html, body {
 }
 
 
-/* -------------------- Skills --------------------*/
+/* ---------------------------------------- Skills ----------------------------------------*/
 
 #skill {
   /*Background Color*/
@@ -364,7 +366,7 @@ html, body {
 }
 
 
-/* -------------------- Contact Me --------------------*/
+/* ---------------------------------------- Contact Me ----------------------------------------*/
 
 #contact {
   /*Background Color*/
