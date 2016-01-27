@@ -43,7 +43,15 @@ h1 {
   font-variant: normal;
   font-weight: 300;
   line-height: 1.3em;
+}
 
+.title, .links {
+  /*Horizontally center all items*/
+  width: 50%;
+  margin: 0 auto;
+}
+
+.title {
   /*Position*/
   text-align: center;
   margin-bottom: 30px;
@@ -55,12 +63,6 @@ h1 {
   -moz-animation: loadTitle 1s ease;
   -o-animation: loadTitle 1s ease;
   -webkit-animation: loadTitle 1s ease;
-}
-
-.title, .links {
-  /*Horizontally center all items*/
-  width: 50%;
-  margin: 0 auto;
 }
 
 ul {
@@ -90,12 +92,6 @@ a {
   line-height: 20px;
   text-decoration: none;
 
-  /*Hover Transition*/
-  transition-property: margin-left;
-  transition-duration: 0.5s;
-  margin-left: 0px;
-  margin-right: 0px;
-
   /*On Load Animation*/
   position: relative;
   opacity: 0;
@@ -105,91 +101,72 @@ a {
   -webkit-animation: loadLink 0.6s ease;
 }
 
-a:hover {
+/*Hover effect of each link*/
+.resume:hover, .linkedin:hover, .github:hover, .vsco:hover, .flickr:hover, .project365:hover, .ACTRA:hover {
   /*Overriding hover font color change from Bootstrap*/
   color: white;
 
-  /*Hover effect*/
-  margin-left: 10px;
+  /*Hover link position change*/
+  transform: scale(1.15);
+  -webkit-transform: scale(1.15);
+  -o-transform: scale(1.15);
+  -moz-transform: scale(1.15);
 }
 
-/*On load animations of each link*/
-.resume {
-  animation-delay: 0.35s;
+/*Animations of each link*/
+.resume, .linkedin, .github, .vsco, .flickr, .project365, .ACTRA {
   animation-fill-mode: forwards;
-}
+  display: inline-block;
 
-.linkedin {
-  animation-delay: 0.5s;
-  animation-fill-mode: forwards;
+  /*Hover Transition*/
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
 }
-
-.github {
-  animation-delay: 0.65s;
-  animation-fill-mode: forwards;
+.resume, .linkedin, .github {
+  animation-delay: 0.4s;
 }
-
-.vsco {
-  animation-delay: 0.8s;
-  animation-fill-mode: forwards;
+.vsco, .flickr, .project365 {
+  animation-delay: 0.6s;
 }
-
-.flickr {
-  animation-delay: 0.95s;
-  animation-fill-mode: forwards;
-}
-
-.project365 {
-  animation-delay: 1.1s;
-  animation-fill-mode: forwards;
-}
-
 .ACTRA {
-  animation-delay: 1.25s;
-  animation-fill-mode: forwards;
+  animation-delay: 0.8s;
 }
 
 /*On Load Animations' positioning and opacity*/
+/*loadLink*/
 @keyframes loadLink {
-  from {opacity: 0; left: -50px;}
-  to {opacity: 1; left: 0px;}
+  from {opacity: 0}
+  to {opacity: 1}
 }
-
 @-moz-keyframes loadLink {
-  0% {opacity: 0; left: -50px;}
-  100% {opacity: 1; left: 0px;}
+  0% {opacity: 0}
+  100% {opacity: 1}
 }
-
 @-o-keyframes loadLink {
-  0% {opacity: 0; left: -50px;}
-  100% {opacity: 1; left: 0px;}
+  0% {opacity: 0}
+  100% {opacity: 1}
 }
-
 @-webkit-keyframes loadLink {
-  0% {opacity: 0; left: -50px;}
-  100% {opacity: 1; left: 0px;}
+  0% {opacity: 0}
+  100% {opacity: 1}
 }
 
+/*loadTitle*/
 @keyframes loadTitle {
-  0% {opacity: 0; top: 85px;}
-  50% {opacity: 1; top: -17px;}
+  0% {opacity: 0; top: 50px;}
   100% {top: 0px;}
 }
-
 @-moz-keyframes loadTitle {
-  0% {opacity: 0; top: 85px;}
-  50% {opacity: 1; top: -17px;}
+  0% {opacity: 0; top: 50px;}
   100% {top: 0px;}
 }
-
 @-o-keyframes loadTitle {
-  0% {opacity: 0; top: 85px;}
-  50% {opacity: 1; top: -17px;}
+  0% {opacity: 0; top: 50px;}
   100% {top: 0px;}
 }
-
 @-webkit-keyframes loadTitle {
-  0% {opacity: 0; top: 85px;}
-  50% {opacity: 1; top: -17px;}
+  0% {opacity: 0; top: 50px;}
   100% {top: 0px;}
 }
