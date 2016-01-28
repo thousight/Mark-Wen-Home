@@ -6,19 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Mark Wen Home</title>
 
+
+  <!-- Designs -->
+
   <!-- Bootstrap -->
-  <!-- jQuery -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" crossorigin="anonymous">
   <!-- Bootflat theme -->
   <link rel="stylesheet" href="https://bootflat.github.io/bootflat/css/bootflat.css">
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="https://cdn.jsdelivr.net/bootstrap/3.3.6/js/bootstrap.min.js"  crossorigin="anonymous"></script>
-  <!-- Bootflat's JS files.-->
-  <script src="https://bootflat.github.io/bootflat/js/icheck.min.js"></script>
-  <script src="https://bootflat.github.io/bootflat/js/jquery.fs.selecter.min.js"></script>
-  <script src="https://bootflat.github.io/bootflat/js/jquery.fs.stepper.min.js"></script>
+
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
@@ -33,8 +29,8 @@
 </head>
 
 <body>
-  <!-- ***************************** Navbar ***************************** -->
-  <nav class="navbar navbar-default navbar-fixed-top">
+  <!-- ****************************************** Navbar ****************************************** -->
+  <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
       <div class="navbar-header">
         <a href="#HomePage"><img class="icon" alt="Brand" src="img/icon.ico"></a>
@@ -44,18 +40,19 @@
         </button>
       </div>
       <div class="collapse navbar-collapse" id="collapseBtn">
-        <ul class="container-fluid nav navbar-nav pull-right">
-          <li><a href="#edu"><h4 class="navbar-items">Education</h4></a></li>
-          <li><a href="#exp"><h4 class="navbar-items">Experience</h4></a></li>
-          <li><a href="#skill"><h4 class="navbar-items">Skills</h4></a></li>
-          <li><a href="#contact"><h4 class="navbar-items">Contact Me</h4></a></li>
+        <ul class="container-fluid nav navbar-nav pull-right" id="navbar-menu">
+          <li><a class="navbar-items" href="#HomePage">Home</a></li>
+          <li><a class="navbar-items" href="#edu">Education</a></li>
+          <li><a class="navbar-items" href="#exp">Experience</a></li>
+          <li><a class="navbar-items" href="#skill">Skills</a></li>
+          <li><a class="navbar-items" href="#contact">Contact Me</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
 
-  <!-- ***************************** HomePage ***************************** -->
+  <!-- ***************************************** HomePage ***************************************** -->
   <div class="content" id="HomePage">
 
     <!-- Title -->
@@ -100,30 +97,64 @@
       </div>
     </div>
 
-    <div class="arrow bounce" href="#edu"></div>
+    <!-- The little jumping button at the bottom of the page -->
+    <div class="arrow bounce"><input class="NextPageBtn" type="button"/></div>
 
   </div>
 
 
-  <!-- ***************************** Education ***************************** -->
+  <!-- **************************************** Education ***************************************** -->
   <div class="content" id="edu">
 
+
+    <!-- The little jumping button at the bottom of the page -->
+    <div class="arrow bounce"><input class="NextPageBtn" type="button"/></div>
+
   </div>
 
 
-  <!-- ***************************** Experience ***************************** -->
+  <!-- **************************************** Experience **************************************** -->
   <div class="content" id="exp">
 
+
+    <!-- The little jumping button at the bottom of the page -->
+    <div class="arrow bounce"><input class="NextPageBtn" type="button"/></div>
+
   </div>
 
-  <!-- ***************************** Skills ***************************** -->
+
+  <!-- ***************************************** Skills ******************************************* -->
   <div class="content" id="skill">
 
+
+    <!-- The little jumping button at the bottom of the page -->
+    <div class="arrow bounce"><input class="NextPageBtn" type="button"/></div>
+
   </div>
 
-  <!-- ***************************** Contact Me ***************************** -->
+
+  <!-- *************************************** Contact Me ***************************************** -->
   <div class="content" id="contact">
 
+
+    <!-- The little jumping button at the bottom of the page -->
+    <div class="arrow bounce"><input class="NextPageBtn" type="button"/></div>
+
   </div>
+
+
+  <!-- ************************************ JavaScript Files ************************************** -->
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+  <!-- Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/bootstrap/3.3.6/js/bootstrap.min.js"  crossorigin="anonymous"></script>
+  <script src="https://bootflat.github.io/bootflat/js/icheck.min.js"></script>
+  <script src="https://bootflat.github.io/bootflat/js/jquery.fs.selecter.min.js"></script>
+  <script src="https://bootflat.github.io/bootflat/js/jquery.fs.stepper.min.js"></script>
+
+  <!-- script.js -->
+  <script src="script.js"></script>
+
 </body>
 </html>
