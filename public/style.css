@@ -291,7 +291,7 @@ html, body {
 
 #exp {
   /*Background Color*/
-  background-color: #E6E9ED;
+  background: url('img/exp.jpg') center center no-repeat scroll;
 
   /*Vertically center all items*/
   display: flex;
@@ -305,7 +305,7 @@ html, body {
 
 #skill {
   /*Background Color*/
-  background-color: #4FC1E9;
+  background: url('img/skill.jpg') center center no-repeat scroll;
 
   /*Vertically center all items*/
   display: flex;
@@ -319,7 +319,7 @@ html, body {
 
 #contact {
   /*Background Color*/
-  background-color: #E6E9ED;
+  background-color: #CCD1D9;
 
   /*Vertically center all items*/
   display: flex;
