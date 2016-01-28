@@ -273,7 +273,7 @@ html, body {
 
 #edu {
   /*Background Image*/
-  background: url('img/Purdue.jpg') center center no-repeat scroll;
+  background: url('img/edu.jpg') center center no-repeat scroll;
   background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -319,7 +319,7 @@ html, body {
 
 #contact {
   /*Background Color*/
-  background-color: #CCD1D9;
+  background-color: #AAB2BD;
 
   /*Vertically center all items*/
   display: flex;
