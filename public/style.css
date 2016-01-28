@@ -292,6 +292,10 @@ html, body {
 #exp {
   /*Background Color*/
   background: url('img/exp.jpg') center center no-repeat scroll;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
 
   /*Vertically center all items*/
   display: flex;
@@ -306,6 +310,10 @@ html, body {
 #skill {
   /*Background Color*/
   background: url('img/skill.jpg') center center no-repeat scroll;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
 
   /*Vertically center all items*/
   display: flex;
@@ -320,6 +328,10 @@ html, body {
 #contact {
   /*Background Color*/
   background-color: #AAB2BD;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
 
   /*Vertically center all items*/
   display: flex;
