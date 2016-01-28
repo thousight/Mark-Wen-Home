@@ -273,7 +273,7 @@ html, body {
 
 #edu {
   /*Background Image*/
-  background: url('/img/edu2.jpg') center center no-repeat scroll;
+  background: url('/img/edu.jpg') center center no-repeat scroll;
   background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
