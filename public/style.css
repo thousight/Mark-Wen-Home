@@ -438,6 +438,12 @@ i {
 ::-o-scrollbar {
   display: none;
 }
+::-moz-scrollbar {
+  display: none;
+}
+::scrollbar {
+  display: none;
+}
 
 
 /* ============================================ Skills =============================================*/
