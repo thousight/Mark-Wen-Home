@@ -1,4 +1,4 @@
-/* ---------------------------------------- Main Body Stuff ----------------------------------------*/
+/* ======================================== Main Body Stuff ========================================*/
 
 html, body {
   /*Full Screen Responsive Div*/
@@ -11,6 +11,71 @@ html, body {
   height: 100%;
   min-height: 100%;
   position: relative;
+}
+
+b {
+  font-weight: bold;
+}
+
+i {
+  font-style: italic;
+}
+
+
+/*Timeline*/
+/*Timeline content*/
+.subtitle {
+  /*Horizontally center all items*/
+  width: 80%;
+  margin: 0 auto;
+}
+
+.eventIcon {
+  height: 80px;
+  width: 80px;
+}
+
+.events-heading {
+  /*Font*/
+  color: black;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  line-height: 1.1em;
+}
+
+.events-subtitle {
+  /*Font*/
+  color: black;
+  font-size: 13.5px;
+  font-family: 'Open Sans';
+  font-style: italic;
+  line-height: 1.1em;
+  font-weight: 300;
+
+  /*Position*/
+  margin-top: -3px;
+}
+
+.events-paragraph {
+  /*Font*/
+  color: black;
+  font-size: 12.5px;
+  font-family: 'Open Sans';
+  line-height: 1.1em;
+
+  /*Position*/
+  margin-top: -7px;
+}
+
+.events-list {
+  /*Font*/
+  color: black;
+  font-size: 12.5px;
+  font-family: 'Open Sans';
+  line-height: 1.1em;
+
+  /*Position*/
+  margin-top: 5px;
 }
 
 /*NextPageBtn*/
@@ -89,7 +154,7 @@ html, body {
   width: 40px;
 }
 
-/* ---------------------------------------- Navigation Bar -----------------------------------------*/
+/* ======================================== Navigation Bar =========================================*/
 
 .icon {
   width: 44px;
@@ -112,11 +177,11 @@ html, body {
 }
 
 
-/* ------------------------------------------- HomePage --------------------------------------------*/
+/* =========================================== HomePage ============================================*/
 
 #HomePage {
   /*Background Image*/
-  background: url('img/HomePage.jpg') center center no-repeat scroll;
+  background: url('img/background/HomePage.jpg') center center no-repeat scroll;
   background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -186,6 +251,7 @@ html, body {
   font-variant: normal;
   line-height: 20px;
   text-decoration: none;
+  font-weight: 300;
 
   /*On Load Animation*/
   position: relative;
@@ -269,11 +335,11 @@ html, body {
 }
 
 
-/* -------------------------------------------- Education ------------------------------------------*/
+/* ========================================== Education ============================================*/
 
 #edu {
   /*Background Image*/
-  background: url('/img/edu.jpg') center center no-repeat scroll;
+  background: url('/img/background/edu.jpg') center center no-repeat scroll;
   background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -286,12 +352,41 @@ html, body {
   justify-content: center;
 }
 
+/*Education Title*/
+.EduH2{
+  /*Font*/
+  color: white;
+  font-family: 'Open Sans';
+  font-size: 60px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 300;
+  line-height: 1.1em;
 
-/* ------------------------------------------ Experience -------------------------------------------*/
+  /*Position*/
+  text-align: center;
+  margin-bottom: 30px;
+  padding-bottom: 55px;
+  position: relative;
+
+  /*Vertically scrollable div*/
+  overflow-y: auto;
+  height: 80%;
+}
+
+.eduTimeline {
+  /*Horizontally center all items*/
+  width: 90%;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+
+/* ========================================== Experience ===========================================*/
 
 #exp {
   /*Background Color*/
-  background: url('img/exp.jpg') center center no-repeat scroll;
+  background: url('img/background/exp.jpg') center center no-repeat scroll;
   background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -304,12 +399,52 @@ html, body {
   justify-content: center;
 }
 
+/*Experience Title*/
+.ExpH2{
+  /*Font*/
+  color: white;
+  font-family: 'Open Sans';
+  font-size: 60px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 300;
+  line-height: 1.1em;
 
-/* -------------------------------------------- Skills ---------------------------------------------*/
+  /*Position*/
+  text-align: center;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  position: relative;
+}
+
+.expTimeline {
+  /*Horizontally center all items*/
+  width: 90%;
+  margin: 0 auto;
+
+  /*Vertically scrollable div*/
+  overflow-y: auto;
+  height: 70%;
+  overflow-x: hidden;
+}
+
+/*Hidding the vertical scrollbar*/
+::-webkit-scrollbar {
+  display: none;
+}
+::-ms-scrollbar {
+  display: none;
+}
+::-o-scrollbar {
+  display: none;
+}
+
+
+/* ============================================ Skills =============================================*/
 
 #skill {
   /*Background Color*/
-  background: url('img/skill.jpg') center center no-repeat scroll;
+  background: url('img/background/skill.jpg') center center no-repeat scroll;
   background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -322,8 +457,26 @@ html, body {
   justify-content: center;
 }
 
+/*Skills Title*/
+.skillH2{
+  /*Font*/
+  color: white;
+  font-family: 'Open Sans';
+  font-size: 60px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 300;
+  line-height: 1.1em;
 
-/* ------------------------------------------ Contact Me -------------------------------------------*/
+  /*Position*/
+  text-align: center;
+  margin-bottom: 30px;
+  padding-bottom: 55px;
+  position: relative;
+}
+
+
+/* ========================================== Contact Me ===========================================*/
 
 #contact {
   /*Background Color*/
@@ -338,4 +491,22 @@ html, body {
   vertical-align: middle;
   flex-direction: column;
   justify-content: center;
+}
+
+/*Contact Title*/
+.contactH2{
+  /*Font*/
+  color: white;
+  font-family: 'Open Sans';
+  font-size: 60px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 300;
+  line-height: 1.1em;
+
+  /*Position*/
+  text-align: center;
+  margin-bottom: 30px;
+  padding-bottom: 55px;
+  position: relative;
 }
