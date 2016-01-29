@@ -16,7 +16,7 @@ $('.NextPageBtn').click(function(e){
 /* ======================================== Navigation Bar =========================================*/
 
 // Select navbar items so that when clicked it scrolls the page to destination
-$('.navbar-items').click(function(e){
+$('.navbar-items, .brand').click(function(e){
   e.preventDefault();
   pageScroll($(this).attr('href'));
 })
