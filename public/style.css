@@ -376,7 +376,7 @@ i {
 
 .eduTimeline {
   /*Horizontally center all items*/
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
   overflow-x: hidden;
 }
@@ -419,7 +419,7 @@ i {
 
 .expTimeline {
   /*Horizontally center all items*/
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
 
   /*Vertically scrollable div*/
@@ -481,6 +481,17 @@ i {
   position: relative;
 }
 
+.skillBars {
+  /*Horizontally center all items*/
+  width: 80%;
+  margin: 0 auto;
+
+  /*Vertically scrollable div*/
+  overflow-y: auto;
+  height: 70%;
+  overflow-x: hidden;
+}
+
 /*Other fonts in skill*/
 .skillTitle {
   /*Font*/
@@ -509,34 +520,6 @@ i {
 
   /*Position*/
   position: relative;
-}
-
-.skillBars {
-  /*Horizontally center all items*/
-  width: 80%;
-  margin: 0 auto;
-
-  /*Vertically scrollable div*/
-  overflow-y: auto;
-  height: 70%;
-  overflow-x: hidden;
-}
-
-/*Hidding the vertical scrollbar*/
-::-webkit-scrollbar {
-  display: none;
-}
-::-ms-scrollbar {
-  display: none;
-}
-::-o-scrollbar {
-  display: none;
-}
-::-moz-scrollbar {
-  display: none;
-}
-::scrollbar {
-  display: none;
 }
 
 
