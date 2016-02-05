@@ -78,18 +78,19 @@ $(document).ready(function(){
 });
 
 // Check if it is scrolled to the top or bottom of the div
-function checkScroll(e) {
-   $('.expTimeline').scroll(function () {
-    if ( $('.expTimeline').scrollTop() == 0) {
-      console.log('Scrolled to Page Top');
-      $(window).scroll();
-    }
-    else if ( $(e.currentTarget)[0].scrollHeight - $(e.currentTarget).scrollTop() == $(e.currentTarget).outerHeight()) {
-      console.log('Scrolled to Page Bottom');
-      pageScroll(window);
-    }
-  });
-}
+// function checkScroll(e) {
+//   $('.expTimeline').scroll(function () {
+//     if ( $('.expTimeline').scrollTop() == 0) {
+//       console.log('Scrolled to Page Top');
+//       pageScroll('#exp');
+//     }
+//     else if ( $(e.currentTarget)[0].scrollHeight - $(e.currentTarget).scrollTop() == $(e.currentTarget).outerHeight()) {
+//       console.log('Scrolled to Page Bottom');
+//       console.log(document);
+//       $(window).scrollTo(document.body);
+//     }
+//   });
+// }
 
 
 /* ============================================ Skills =============================================*/

@@ -477,7 +477,7 @@ i {
   /*Position*/
   text-align: center;
   margin-bottom: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
   position: relative;
 }
 
@@ -490,6 +490,11 @@ i {
   overflow-y: auto;
   height: 70%;
   overflow-x: hidden;
+
+  /*Vertically center all items*/
+  display: flex;
+  vertical-align: middle;
+  flex-direction: column;
 }
 
 /*Other fonts in skill*/
@@ -527,7 +532,7 @@ i {
 
 #contact {
   /*Background Color*/
-  background-color: #AAB2BD;
+  background: url('img/background/contact.jpg') center center no-repeat scroll;
   background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -556,4 +561,15 @@ i {
   margin-bottom: 30px;
   padding-bottom: 55px;
   position: relative;
+}
+
+.contactJumb {
+  /*Horizontally center all items*/
+  width: 80%;
+  margin: 0 auto;
+}
+
+.selfie {
+  height: 50px;
+  width: 50px;
 }
