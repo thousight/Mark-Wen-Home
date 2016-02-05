@@ -476,9 +476,67 @@ i {
 
   /*Position*/
   text-align: center;
-  margin-bottom: 30px;
-  padding-bottom: 55px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
   position: relative;
+}
+
+/*Other fonts in skill*/
+.skillTitle {
+  /*Font*/
+  color: white;
+  font-family: 'Open Sans';
+  font-size: 25px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 300;
+  line-height: 1.1em;
+
+  /*Position*/
+  text-align: center;
+  position: relative;
+}
+
+.skillName {
+  /*Font*/
+  color: white;
+  font-family: 'Open Sans';
+  font-size: 18px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 300;
+  line-height: 1.1em;
+
+  /*Position*/
+  position: relative;
+}
+
+.skillBars {
+  /*Horizontally center all items*/
+  width: 80%;
+  margin: 0 auto;
+
+  /*Vertically scrollable div*/
+  overflow-y: auto;
+  height: 70%;
+  overflow-x: hidden;
+}
+
+/*Hidding the vertical scrollbar*/
+::-webkit-scrollbar {
+  display: none;
+}
+::-ms-scrollbar {
+  display: none;
+}
+::-o-scrollbar {
+  display: none;
+}
+::-moz-scrollbar {
+  display: none;
+}
+::scrollbar {
+  display: none;
 }
 
 
