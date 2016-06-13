@@ -1,10 +1,10 @@
 /* ======================================== Main Body Stuff ========================================*/
 
 // Page scroll animation function
-var pageScroll = function(element){
+var pageScroll = function (element) {
   $('html,body').animate({
     scrollTop: $(element).offset().top
-  }, 1500, 'easeInOutQuart');
+  }, 1500, 'easeInOutQuart')
 }
 
 // The button can scroll to next page
@@ -16,7 +16,7 @@ $('.NextPageBtn').click(function(e){
 /* ======================================== Navigation Bar =========================================*/
 
 // Select navbar items so that when clicked it scrolls the page to destination
-$('.navbar-items, .brand').click(function(e){
+$ ('.navbar-items, .brand').click (function (e) {
   e.preventDefault();
   pageScroll($(this).attr('href'));
 })
